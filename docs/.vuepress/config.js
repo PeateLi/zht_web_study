@@ -4,7 +4,7 @@ module.exports = {
   title: '中海通前端技术文档', // 标题
   description: 'Vue3/TypeScript', // 标题下的描述
   themeConfig: { // 主题配置
-    logo: 'http://www.sinocean.com/img/zht.png',
+    logo: '/images/zht.png',
     sidebar: [ // 左侧导航
       '00_课程介绍',
       {
@@ -65,6 +65,6 @@ module.exports = {
   },
 
   head: [
-    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `http://www.sinocean.com/img/zht.png` }]
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `/images/zht.png` }]
   ]
 }
